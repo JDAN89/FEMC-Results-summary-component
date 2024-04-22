@@ -1,0 +1,14 @@
+{
+  "name": "femc-results-summary-component",
+  "version": "1.0.0",
+  "description": "Frontend Mentor - Results summary component",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass -w ./sass/styles.scss ./css/styles.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.75.0"
+  }
+}
