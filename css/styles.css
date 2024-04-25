@@ -1,3 +1,43 @@
+.container {
+  max-width: 800px;
+  margin: auto;
+  border: solid 1px red;
+}
 
+/* categories colours */
+.card {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  margin: 0;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  margin-block: 308px;
+  font-family: "Hanken Grotesk", sans-serif;
+  max-width: 100%;
+}
+.card__score-board {
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  text-align: center;
+  padding: 40px 30px 30px 30px;
+  border-radius: 30px;
+  max-width: 400px;
+}
+.card__score-board__title {
+  padding-bottom: 30px;
+  color: hsl(241, 100%, 89%);
+  font-weight: 800;
+}
+.card__score-board__score-circle {
+  background-color: red;
+  border-radius: 50%;
+  max-width: 200px;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* categories colours */
 
 /*# sourceMappingURL=styles.css.map */
